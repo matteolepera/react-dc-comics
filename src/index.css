@@ -21,7 +21,7 @@ body {
 }
 
 .justify-center {
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .justify-between {
@@ -38,6 +38,10 @@ body {
 
 .gap-20 {
   gap: 20px;
+}
+
+.p-40 {
+  padding: 40px;
 }
 
 .text-blu {

@@ -20,6 +20,10 @@ body {
   display: flex;
 }
 
+.justify-center {
+  justify-content: space-between;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -28,8 +32,12 @@ body {
   align-items: center;
 }
 
-.gap-10 {
-  gap: 10px;
+.mt-10 {
+  margin-top: 10px;
+}
+
+.gap-20 {
+  gap: 20px;
 }
 
 

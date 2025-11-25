@@ -1,0 +1,27 @@
+footer {
+    background-image: url("../assets/img/dc-logo-bg.png"), url("../assets/img/footer-bg.jpg");
+    background-size: contain, cover;
+    background-position: right, center;
+    background-repeat: no-repeat, no-repeat;
+}
+
+h3 {
+    color: #fff;
+}
+
+.footer-top ul {
+    padding: 30px 0px;
+}
+
+.footer-top a {
+    text-decoration: none;
+    color: #8F8F8F;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 0.7rem;
+}
+
+.footer-bottom {
+    background-color: #303030;
+    height: 80px;
+}

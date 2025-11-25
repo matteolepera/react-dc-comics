@@ -40,6 +40,9 @@ body {
   gap: 20px;
 }
 
+.text-blu {
+  color: #0582F9;
+}
 
 .container {
   width: 80%;

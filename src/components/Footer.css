@@ -10,7 +10,7 @@ h3 {
 }
 
 .footer-top ul {
-    padding: 30px 0px;
+    padding: 30px 0;
 }
 
 .footer-top a {
@@ -23,5 +23,5 @@ h3 {
 
 .footer-bottom {
     background-color: #303030;
-    height: 80px;
+    padding: 30px 0;
 }

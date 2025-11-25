@@ -1,15 +1,12 @@
-import './Index.css'
-import Header from "./components/Header"
+import './Index.css';
+import Header from "./components/Header";
+import Main from "./components/Main";
 
 export default function App() {
   return (
     <>
       <Header />
-
-      <main>
-        <h2>content goes here</h2>
-        <div>barra blu</div>
-      </main>
+      <Main />
       <footer>
         <ul>
           <li>lista foot</li>
@@ -17,6 +14,6 @@ export default function App() {
         <div>footer bottom</div>
       </footer>
     </>
-  )
+  );
 }
 

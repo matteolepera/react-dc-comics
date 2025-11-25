@@ -1,12 +1,10 @@
 import './Index.css'
+import Header from "./components/Header"
 
 export default function App() {
   return (
     <>
-      <header>
-        <nav>
-        </nav>
-      </header>
+      <Header />
 
       <main>
         <h2>content goes here</h2>

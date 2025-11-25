@@ -1,3 +1,6 @@
+/* Font Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +9,20 @@
 
 img {
   max-width: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
 }

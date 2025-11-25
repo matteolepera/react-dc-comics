@@ -14,7 +14,7 @@ export default function Main() {
             </div>
             <div className={style.wrap}>
                 <div className="container">
-                    <ul className="d-flex gap-20 justify-between p-40">
+                    <ul className="d-flex gap-20 justify-between p-30">
                         <li><img src={ComicsDigital} alt="" />DIGITAL COMICS</li>
                         <li><img src={ComiscsMerc} alt="" />DC MERCHANDAISE</li>
                         <li><img src={ComicsSubscriptions} alt="" />SUBSCRIPTION</li>

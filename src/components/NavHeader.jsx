@@ -4,7 +4,7 @@ import style from "./NavHeader.module.css";
 export default function NavHeader() {
     return (
         <nav className={style.link}>
-            <ul>
+            <ul className="d-flex justify-between gap-10">
                 <li><a href="">CHARACTERS</a></li>
                 <li className={style.active}><a href="">COMICS</a></li>
                 <li><a href="">MOVIES</a></li>

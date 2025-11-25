@@ -1,6 +1,7 @@
+import "../components/CtaButton.css"
 
 export default function CtaButton() {
     return (
-        <button>SING UP</button>
+        <button className="cta-btn">SING-UP NOW!</button>
     );
 }

@@ -52,6 +52,10 @@ body {
   color: #0582F9;
 }
 
+.position-relative {
+  position: relative;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;

@@ -1,9 +1,9 @@
 import stylemain from "./Main.module.css";
-import ComicsDigital from "../assets/img/buy-comics-digital-comics.png"
-import ComiscsMerc from "../assets/img/buy-comics-merchandise.png"
-import ComicsSubscriptions from "../assets/img/buy-comics-subscriptions.png"
-import ComicsShop from "../assets/img/buy-comics-shop-locator.png"
-import DcPowerVisa from "../assets/img/buy-dc-power-visa.svg"
+import ComicsDigital from "../assets/img/buy-comics-digital-comics.png";
+import ComiscsMerc from "../assets/img/buy-comics-merchandise.png";
+import ComicsSubscriptions from "../assets/img/buy-comics-subscriptions.png";
+import ComicsShop from "../assets/img/buy-comics-shop-locator.png";
+import DcPowerVisa from "../assets/img/buy-dc-power-visa.svg";
 import BookCard from "./BookCard";
 
 export default function Main() {

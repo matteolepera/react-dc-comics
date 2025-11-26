@@ -20,6 +20,10 @@ body {
   display: flex;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .justify-center {
   justify-content: center;
 }

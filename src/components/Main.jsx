@@ -4,16 +4,13 @@ import ComiscsMerc from "../assets/img/buy-comics-merchandise.png"
 import ComicsSubscriptions from "../assets/img/buy-comics-subscriptions.png"
 import ComicsShop from "../assets/img/buy-comics-shop-locator.png"
 import DcPowerVisa from "../assets/img/buy-dc-power-visa.svg"
-import { comics } from "../components/comics"
+import BookCard from "./BookCard";
 
 export default function Main() {
-    const contentText = `container ${stylemain.content}`;
     return (
         <main className={stylemain.background}>
             <div className={stylemain.banner}></div>
-            <div className={contentText}>
-                <h2>--&gt; Content goes here &lt;--</h2>
-            </div>
+            <BookCard />
             <div className={stylemain.wrap}>
                 <div className="container">
                     <ul className="d-flex gap-20 justify-between p-30">

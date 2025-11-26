@@ -1,0 +1,37 @@
+:root {
+    --gap-total: 30px;
+    --num-col: 6;
+}
+
+.content {
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.gap {
+    gap: var(--gap-total);
+}
+
+.col {
+    width: calc((100% - (var(--gap-total) * (var(--num-col) - 1))) / var(--num-col));
+}
+
+.col>img {
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.col>h3 {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.btn-load {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    background-color: #0582F9;
+    padding: 10px 40px;
+    font-weight: 600;
+}

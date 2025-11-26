@@ -1,18 +1,20 @@
-import style from "./Main.module.css";
+import stylemain from "./Main.module.css";
 import ComicsDigital from "../assets/img/buy-comics-digital-comics.png"
 import ComiscsMerc from "../assets/img/buy-comics-merchandise.png"
 import ComicsSubscriptions from "../assets/img/buy-comics-subscriptions.png"
 import ComicsShop from "../assets/img/buy-comics-shop-locator.png"
 import DcPowerVisa from "../assets/img/buy-dc-power-visa.svg"
+import { comics } from "../components/comics"
 
 export default function Main() {
-    const contentText = `container ${style.content}`;
+    const contentText = `container ${stylemain.content}`;
     return (
-        <main className={style.background}>
+        <main className={stylemain.background}>
+            <div className={stylemain.banner}></div>
             <div className={contentText}>
                 <h2>--&gt; Content goes here &lt;--</h2>
             </div>
-            <div className={style.wrap}>
+            <div className={stylemain.wrap}>
                 <div className="container">
                     <ul className="d-flex gap-20 justify-between p-30">
                         <li><img src={ComicsDigital} alt="" />DIGITAL COMICS</li>

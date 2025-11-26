@@ -1,0 +1,29 @@
+const footerLinks = [
+    // DC COMICS section
+    { id: 1, titolo: 'Characters', path: '/characters' },
+    { id: 2, titolo: 'Comics', path: '/comics' },
+    { id: 3, titolo: 'Movies', path: '/movies' },
+    { id: 4, titolo: 'Tv', path: '/tv' },
+    { id: 5, titolo: 'Games', path: '/games' },
+    { id: 6, titolo: 'Videos', path: '/videos' },
+    { id: 7, titolo: 'News', path: '/news' },
+    // SHOP section
+    { id: 8, titolo: 'Shop DC', path: '/shop-dc' },
+    { id: 9, titolo: 'Shop DC Collectibles', path: '/shop-dc-collectibles' },
+    // DC section
+    { id: 10, titolo: 'Terms Of Use', path: '/terms-of-use' },
+    { id: 11, titolo: 'Privacy policy (New)', path: '/privacy-policy-new' },
+    { id: 12, titolo: 'Ad Choices', path: '/ad-choices' },
+    { id: 13, titolo: 'Advertising', path: '/advertising' },
+    { id: 14, titolo: 'Jobs', path: '/jobs' },
+    { id: 15, titolo: 'Subscriptions', path: '/subscriptions' },
+    { id: 16, titolo: 'Talent Worships', path: '/talent-worships' },
+    { id: 17, titolo: 'CPSC Certificates', path: '/cpsc-certificates' },
+    { id: 18, titolo: 'Ratings', path: '/ratings' },
+    { id: 19, titolo: 'Shop Help', path: '/shop-help' },
+    { id: 20, titolo: 'Contact Us', path: '/contact-us' },
+    // SITES section
+    { id: 21, titolo: 'DC', path: '/dc' },
+    { id: 22, titolo: 'MAD Magazine', path: '/mad-magazine' },
+    { id: 23, titolo: 'DC Kids', path: '/dc-kids' }
+];

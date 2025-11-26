@@ -1,21 +1,16 @@
-import style from "./NavHeader.module.css";
-
+import styleheader from "./NavHeader.module.css";
+import { navLinks } from "./navLinks";
 
 export default function NavHeader() {
     return (
-        <nav className={style.link}>
+        <nav className={styleheader.link}>
             <ul className="d-flex justify-between gap-20">
-                <li><a href="">CHARACTERS</a></li>
-                <li className={style.active}><a href="">COMICS</a></li>
-                <li><a href="">MOVIES</a></li>
-                <li><a href="">TV</a></li>
-                <li><a href="">GAMES</a></li>
-                <li><a href="">COLLECTIBLES</a></li>
-                <li><a href="">VIDEOS</a></li>
-                <li><a href="">FANS</a></li>
-                <li><a href="">NEWS</a></li>
-                <li><a href="">SHOP</a></li>
+                {navLinks.map((link) => (
+                    <li className={`${link.active ? styleheader.active : ""}`} key={link.id} >
+                        <a href="">{link.titolo}</a>
+                    </li>
+                ))}
             </ul>
-        </nav>
+        </nav >
     );
 }

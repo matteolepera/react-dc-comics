@@ -4,9 +4,11 @@ import "./Header.css";
 
 export default function Header() {
     return (
-        <header className="d-flex justify-between align-center">
-            <img src={Logo} alt="" height="50" />
-            <NavHeader />
-        </header>
+        <header>
+            <div className="container d-flex justify-between align-center">
+                <a href=""> <img src={Logo} alt="" height="50" /> </a>
+                <NavHeader />
+            </div>
+        </header >
     );
 }

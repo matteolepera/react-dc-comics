@@ -6,6 +6,7 @@ import ComicsShop from "../assets/img/buy-comics-shop-locator.png";
 import DcPowerVisa from "../assets/img/buy-dc-power-visa.svg";
 import BookCard from "./BookCard";
 import { comics } from "../components/comics"
+import LoadButton from "./LoadButton";
 
 export default function Main() {
     return (
@@ -19,6 +20,10 @@ export default function Main() {
                         title={comic.title}
                         series={comic.series.toUpperCase()} />
                 )}
+
+                <LoadButton
+                    title="LOAD MORE" />
+
             </div>
             <div className={stylemain.wrap}>
                 <div className="container">

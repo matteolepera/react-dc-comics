@@ -47,7 +47,8 @@ export default function Footer() {
 
             <div className="footer-bottom">
                 <div className="container d-flex justify-between">
-                    <CtaButton />
+                    <CtaButton
+                        title="SING-UP NOW!" />
                     <NavSocial />
                 </div>
             </div>

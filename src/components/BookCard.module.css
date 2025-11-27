@@ -9,7 +9,7 @@
 
 .col {
     width: calc(100% / var(--num-col));
-    padding: 10px;
+    padding: 40px 10px 15px;
 }
 
 .col>img {
@@ -21,13 +21,4 @@
 .col>h3 {
     font-size: 0.8rem;
     font-weight: 400;
-}
-
-.a {
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    background-color: #0582F9;
-    padding: 10px 40px;
-    font-weight: 600;
 }

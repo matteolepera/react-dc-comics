@@ -1,5 +1,4 @@
 :root {
-    --gap-total: 30px;
     --num-col: 6;
 }
 
@@ -8,12 +7,9 @@
     padding: 30px 20px;
 }
 
-.gap {
-    gap: var(--gap-total);
-}
-
 .col {
-    width: calc((100% - (var(--gap-total) * (var(--num-col) - 1))) / var(--num-col));
+    width: calc(100% / var(--num-col));
+    padding: 10px;
 }
 
 .col>img {
